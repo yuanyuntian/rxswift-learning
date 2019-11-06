@@ -1,0 +1,42 @@
+PODS:
+  - MJRefresh (3.2.0)
+  - Money-FlightSchool (1.1.1)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (4.0.1)
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - MJRefresh
+  - Money-FlightSchool
+  - RxCocoa
+  - RxSwift (~> 5.0.0)
+  - SnapKit (~> 4.0.0)
+  - UMCSecurityPlugins
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+    - Money-FlightSchool
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - UMCSecurityPlugins
+
+SPEC CHECKSUMS:
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Money-FlightSchool: 9b16e888f05ee439382897672e7ef2ece7ae80bc
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: c5a09d959e360c78a910f4f95ebec97b6a963134
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4bbd58bb29359c8e10462d48df7f8380"
+build_time: [1567653014, 236799000]
+inputs:
+  "/Users/yuanf/Desktop/testSwfit/testSwfit/YXPurchasePopView.swift": [1567653013, 0]
+  "/Users/yuanf/Desktop/testSwfit/testSwfit/ViewController.swift": [1567651865, 0]
+  "/Users/yuanf/Desktop/testSwfit/testSwfit/AppDelegate.swift": [1567642715, 0]
+  "/Users/yuanf/Desktop/testSwfit/testSwfit/YXPurchasePopPlusAddView.swift": [1567643513, 0]
+  "/Users/yuanf/Desktop/testSwfit/testSwfit/YXPurchasePopCellTableViewCell.swift": [1567647021, 0]
