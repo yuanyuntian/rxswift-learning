@@ -23,6 +23,11 @@ class ViewController: UIViewController{
         "订阅UITableViewCell里的按钮点击事件",
         "下拉刷新，上拉记载更多",
         "结合MJRefresh使用1：下拉刷新",
+        "Observable介绍、创建可观察序列",
+        "Observable订阅、事件监听、订阅销毁",
+        "观察者1： AnyObserver、Binder",
+        "观察者2： 自定义可绑定属性",
+        "Subjects、Variables"
     ])
     
     let chocolates: BehaviorRelay<[String]> = BehaviorRelay(value: [])
@@ -56,6 +61,21 @@ extension ViewController:UITableViewDelegate{
             self.navigationController?.pushViewController(vc, animated: true)
         }else if indexPath.row == 2 {
             let vc = MJHeaderRefreshViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 4 {
+            let vc = ObservableIntroduceCreateViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 5 {
+            let vc = ObservableSubscribeDoonDisposeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 6 {
+            let vc = AnyObserverBinderViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 7 {
+            let vc = CustomBindablePropertyViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 8 {
+            let vc = SubjectsVariablesViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
