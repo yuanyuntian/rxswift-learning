@@ -19,6 +19,20 @@
 		B86C95532373C317001AE7D5 /* AnyObserverBinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95522373C317001AE7D5 /* AnyObserverBinderViewController.swift */; };
 		B86C95562373E493001AE7D5 /* CustomBindablePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95552373E493001AE7D5 /* CustomBindablePropertyViewController.swift */; };
 		B86C95592373F028001AE7D5 /* SubjectsVariablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95582373F028001AE7D5 /* SubjectsVariablesViewController.swift */; };
+		B86C955D2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C955C2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift */; };
+		B86C956023751437001AE7D5 /* FilterTakeSkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C955F23751437001AE7D5 /* FilterTakeSkipViewController.swift */; };
+		B86C956323751DC2001AE7D5 /* AmbTakeWhileSkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C956223751DC2001AE7D5 /* AmbTakeWhileSkipWhileViewController.swift */; };
+		B86C956623754842001AE7D5 /* StartWithMergeZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C956523754842001AE7D5 /* StartWithMergeZipViewController.swift */; };
+		B86C9569237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C9568237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift */; };
+		B86C956C23755ED5001AE7D5 /* ConnectPublishReplayMulticastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C956B23755ED5001AE7D5 /* ConnectPublishReplayMulticastViewController.swift */; };
+		B86C956F2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C956E2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift */; };
+		B86C95722379100C001AE7D5 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95712379100C001AE7D5 /* DriverViewController.swift */; };
+		B86C957523793047001AE7D5 /* ControlPropetyControlEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957423793047001AE7D5 /* ControlPropetyControlEventViewController.swift */; };
+		B86C957823793C0A001AE7D5 /* UIViewControllerRxExtendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957723793C0A001AE7D5 /* UIViewControllerRxExtendViewController.swift */; };
+		B86C957A23793C83001AE7D5 /* UIViewController+RxSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957923793C83001AE7D5 /* UIViewController+RxSwift.swift */; };
+		B86C957D23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957C23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift */; };
+		B86C958023795B81001AE7D5 /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957F23795B81001AE7D5 /* UILabelViewController.swift */; };
+		B86C958323796571001AE7D5 /* UITextFieldUITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C958223796571001AE7D5 /* UITextFieldUITextViewViewController.swift */; };
 		B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */; };
 		B86E049023726AE700832DAF /* UITableViewCellButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */; };
 		B86E049323726D7000832DAF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E049223726D7000832DAF /* MyTableViewCell.swift */; };
@@ -74,6 +88,20 @@
 		B86C95522373C317001AE7D5 /* AnyObserverBinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserverBinderViewController.swift; sourceTree = "<group>"; };
 		B86C95552373E493001AE7D5 /* CustomBindablePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindablePropertyViewController.swift; sourceTree = "<group>"; };
 		B86C95582373F028001AE7D5 /* SubjectsVariablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVariablesViewController.swift; sourceTree = "<group>"; };
+		B86C955C2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferMapFlatMapScanViewController.swift; sourceTree = "<group>"; };
+		B86C955F23751437001AE7D5 /* FilterTakeSkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTakeSkipViewController.swift; sourceTree = "<group>"; };
+		B86C956223751DC2001AE7D5 /* AmbTakeWhileSkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbTakeWhileSkipWhileViewController.swift; sourceTree = "<group>"; };
+		B86C956523754842001AE7D5 /* StartWithMergeZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithMergeZipViewController.swift; sourceTree = "<group>"; };
+		B86C9568237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToArrayReduceConcatViewController.swift; sourceTree = "<group>"; };
+		B86C956B23755ED5001AE7D5 /* ConnectPublishReplayMulticastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPublishReplayMulticastViewController.swift; sourceTree = "<group>"; };
+		B86C956E2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCompletableMaybeViewController.swift; sourceTree = "<group>"; };
+		B86C95712379100C001AE7D5 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		B86C957423793047001AE7D5 /* ControlPropetyControlEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPropetyControlEventViewController.swift; sourceTree = "<group>"; };
+		B86C957723793C0A001AE7D5 /* UIViewControllerRxExtendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRxExtendViewController.swift; sourceTree = "<group>"; };
+		B86C957923793C83001AE7D5 /* UIViewController+RxSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RxSwift.swift"; sourceTree = "<group>"; };
+		B86C957C23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnObserveOnViewController.swift; sourceTree = "<group>"; };
+		B86C957F23795B81001AE7D5 /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
+		B86C958223796571001AE7D5 /* UITextFieldUITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldUITextViewViewController.swift; sourceTree = "<group>"; };
 		B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellButtonViewController.swift; sourceTree = "<group>"; };
 		B86E049223726D7000832DAF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
@@ -151,6 +179,19 @@
 		4C50369B23208BDB008D23A9 /* testSwfit */ = {
 			isa = PBXGroup;
 			children = (
+				B86C958123796550001AE7D5 /* UI控件扩展2：UITextField、UITextView */,
+				B86C957E23795B64001AE7D5 /* UI控件扩展1：UILabel */,
+				B86C957B23795AAB001AE7D5 /* 调度器、subscribeOn、observeOn */,
+				B86C957623793BE1001AE7D5 /* 给 UIViewController 添加 RxSwift 扩展 */,
+				B86C957323793023001AE7D5 /* 特征序列3：ControlProperty、 ControlEvent */,
+				B86C957023790FF4001AE7D5 /* 特征序列2：Driver */,
+				B86C956D2378F3A6001AE7D5 /* 特征序列1：Single、Completable、Maybe */,
+				B86C956A23755EAF001AE7D5 /* 连接操作符：connect、publish、replay、multicast */,
+				B86C956723755899001AE7D5 /* 算数&聚合操作符：toArray、reduce、concat */,
+				B86C956423754833001AE7D5 /* 结合操作符：startWith、merge、zip等 */,
+				B86C956123751DAA001AE7D5 /* 条件和布尔操作符：amb、takeWhile、skipWhile等 */,
+				B86C955E23751424001AE7D5 /* 过滤操作符：filter、take、skip等 */,
+				B86C955B2374F36D001AE7D5 /* 变换操作符：buffer、map、flatMap、scan等 */,
 				B86C95572373F00E001AE7D5 /* Subjects、Variables */,
 				B86C95542373E484001AE7D5 /* 观察者2： 自定义可绑定属性 */,
 				B86C95512373C303001AE7D5 /* 观察者1： AnyObserver、Binder */,
@@ -227,6 +268,111 @@
 				B86C95582373F028001AE7D5 /* SubjectsVariablesViewController.swift */,
 			);
 			path = "Subjects、Variables";
+			sourceTree = "<group>";
+		};
+		B86C955B2374F36D001AE7D5 /* 变换操作符：buffer、map、flatMap、scan等 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C955C2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift */,
+			);
+			path = "变换操作符：buffer、map、flatMap、scan等";
+			sourceTree = "<group>";
+		};
+		B86C955E23751424001AE7D5 /* 过滤操作符：filter、take、skip等 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C955F23751437001AE7D5 /* FilterTakeSkipViewController.swift */,
+			);
+			path = "过滤操作符：filter、take、skip等";
+			sourceTree = "<group>";
+		};
+		B86C956123751DAA001AE7D5 /* 条件和布尔操作符：amb、takeWhile、skipWhile等 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C956223751DC2001AE7D5 /* AmbTakeWhileSkipWhileViewController.swift */,
+			);
+			path = "条件和布尔操作符：amb、takeWhile、skipWhile等";
+			sourceTree = "<group>";
+		};
+		B86C956423754833001AE7D5 /* 结合操作符：startWith、merge、zip等 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C956523754842001AE7D5 /* StartWithMergeZipViewController.swift */,
+			);
+			path = "结合操作符：startWith、merge、zip等";
+			sourceTree = "<group>";
+		};
+		B86C956723755899001AE7D5 /* 算数&聚合操作符：toArray、reduce、concat */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9568237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift */,
+			);
+			path = "算数&聚合操作符：toArray、reduce、concat";
+			sourceTree = "<group>";
+		};
+		B86C956A23755EAF001AE7D5 /* 连接操作符：connect、publish、replay、multicast */ = {
+			isa = PBXGroup;
+			children = (
+				B86C956B23755ED5001AE7D5 /* ConnectPublishReplayMulticastViewController.swift */,
+			);
+			path = "连接操作符：connect、publish、replay、multicast";
+			sourceTree = "<group>";
+		};
+		B86C956D2378F3A6001AE7D5 /* 特征序列1：Single、Completable、Maybe */ = {
+			isa = PBXGroup;
+			children = (
+				B86C956E2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift */,
+			);
+			path = "特征序列1：Single、Completable、Maybe";
+			sourceTree = "<group>";
+		};
+		B86C957023790FF4001AE7D5 /* 特征序列2：Driver */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95712379100C001AE7D5 /* DriverViewController.swift */,
+			);
+			path = "特征序列2：Driver";
+			sourceTree = "<group>";
+		};
+		B86C957323793023001AE7D5 /* 特征序列3：ControlProperty、 ControlEvent */ = {
+			isa = PBXGroup;
+			children = (
+				B86C957423793047001AE7D5 /* ControlPropetyControlEventViewController.swift */,
+			);
+			path = "特征序列3：ControlProperty、 ControlEvent";
+			sourceTree = "<group>";
+		};
+		B86C957623793BE1001AE7D5 /* 给 UIViewController 添加 RxSwift 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C957723793C0A001AE7D5 /* UIViewControllerRxExtendViewController.swift */,
+				B86C957923793C83001AE7D5 /* UIViewController+RxSwift.swift */,
+			);
+			path = "给 UIViewController 添加 RxSwift 扩展";
+			sourceTree = "<group>";
+		};
+		B86C957B23795AAB001AE7D5 /* 调度器、subscribeOn、observeOn */ = {
+			isa = PBXGroup;
+			children = (
+				B86C957C23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift */,
+			);
+			path = "调度器、subscribeOn、observeOn";
+			sourceTree = "<group>";
+		};
+		B86C957E23795B64001AE7D5 /* UI控件扩展1：UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				B86C957F23795B81001AE7D5 /* UILabelViewController.swift */,
+			);
+			path = "UI控件扩展1：UILabel";
+			sourceTree = "<group>";
+		};
+		B86C958123796550001AE7D5 /* UI控件扩展2：UITextField、UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				B86C958223796571001AE7D5 /* UITextFieldUITextViewViewController.swift */,
+			);
+			path = "UI控件扩展2：UITextField、UITextView";
 			sourceTree = "<group>";
 		};
 		B86E048C2372658300832DAF /* NotificationCenter的使用 */ = {
@@ -391,20 +537,34 @@
 			files = (
 				B86E049023726AE700832DAF /* UITableViewCellButtonViewController.swift in Sources */,
 				B8F4A18A237271630002FA33 /* MJRefreshHeaderAndFooterViewController.swift in Sources */,
+				B86C955D2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				B86C95502373B827001AE7D5 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
+				B86C956F2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift in Sources */,
+				B86C957523793047001AE7D5 /* ControlPropetyControlEventViewController.swift in Sources */,
 				B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */,
+				B86C95722379100C001AE7D5 /* DriverViewController.swift in Sources */,
+				B86C956323751DC2001AE7D5 /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
+				B86C957823793C0A001AE7D5 /* UIViewControllerRxExtendViewController.swift in Sources */,
+				B86C956623754842001AE7D5 /* StartWithMergeZipViewController.swift in Sources */,
 				B8F4A18E237277430002FA33 /* MJRefreshHeaderAndFooterNetworkService.swift in Sources */,
+				B86C956C23755ED5001AE7D5 /* ConnectPublishReplayMulticastViewController.swift in Sources */,
 				B86C95562373E493001AE7D5 /* CustomBindablePropertyViewController.swift in Sources */,
 				B8A9DA102372AC90001B923B /* MJRefresh+Rx.swift in Sources */,
+				B86C958323796571001AE7D5 /* UITextFieldUITextViewViewController.swift in Sources */,
 				B86C95532373C317001AE7D5 /* AnyObserverBinderViewController.swift in Sources */,
 				4C50369F23208BDC008D23A9 /* ViewController.swift in Sources */,
 				B86C95592373F028001AE7D5 /* SubjectsVariablesViewController.swift in Sources */,
 				B8F4A18C237272980002FA33 /* MJRefreshHeaderAndFooterViewModel.swift in Sources */,
 				B8A9DA122372B19A001B923B /* MJRefreshNetworkService.swift in Sources */,
+				B86C957A23793C83001AE7D5 /* UIViewController+RxSwift.swift in Sources */,
 				B8A9DA162372BE14001B923B /* MJHeaderRefreshViewController.swift in Sources */,
 				B86E049323726D7000832DAF /* MyTableViewCell.swift in Sources */,
+				B86C958023795B81001AE7D5 /* UILabelViewController.swift in Sources */,
+				B86C957D23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift in Sources */,
+				B86C9569237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift in Sources */,
 				B86C954D2373A220001AE7D5 /* ObservableIntroduceCreateViewController.swift in Sources */,
 				4C50369D23208BDC008D23A9 /* AppDelegate.swift in Sources */,
+				B86C956023751437001AE7D5 /* FilterTakeSkipViewController.swift in Sources */,
 				B8A9DA142372BBAC001B923B /* MJRefreshViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

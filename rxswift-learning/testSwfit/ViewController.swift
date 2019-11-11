@@ -33,7 +33,13 @@ class ViewController: UIViewController{
         "条件和布尔操作符：amb、takeWhile、skipWhile等",
         "结合操作符：startWith、merge、zip等",
         "算数&聚合操作符：toArray、reduce、concat",
-        "连接操作符：connect、publish、replay、multicast"
+        "连接操作符：connect、publish、replay、multicast",
+        "特征序列1：Single、Completable、Maybe",
+        "特征序列3：ControlProperty、 ControlEvent",
+        "给 UIViewController 添加 RxSwift 扩展",
+        "调度器、subscribeOn、observeOn",
+        "UI控件扩展1：UILabel",
+        "UI控件扩展2：UITextField、UITextView"
     ])
     
     let chocolates: BehaviorRelay<[String]> = BehaviorRelay(value: [])
@@ -100,6 +106,24 @@ extension ViewController:UITableViewDelegate{
             self.navigationController?.pushViewController(vc, animated: true)
         }else if indexPath.row == 14 {
             let vc = ConnectPublishReplayMulticastViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 15 {
+            let vc = SingleCompletableMaybeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 16 {
+            let vc = SingleCompletableMaybeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 17 {
+            let vc = UIViewControllerRxExtendViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 18 {
+            let vc = SubscribeOnObserveOnViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 19 {
+            let vc = UILabelViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 20 {
+            let vc = UITextFieldUITextViewViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

@@ -53,5 +53,149 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE12E608-35B1-4903-804A-0F3AD654FAD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/&#x53d8;&#x6362;&#x64cd;&#x4f5c;&#x7b26;&#xff1a;buffer&#x3001;map&#x3001;flatMap&#x3001;scan&#x7b49;/BufferMapFlatMapScanViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72419BD2-3953-4531-B103-8C6B9F9CF8AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/&#x7ed9; UIViewController &#x6dfb;&#x52a0; RxSwift &#x6269;&#x5c55;/UIViewController+RxSwift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "isVisible"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DEE6B02-BFD1-49C8-994C-437E50B36017"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/&#x7ed9; UIViewController &#x6dfb;&#x52a0; RxSwift &#x6269;&#x5c55;/UIViewController+RxSwift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "isVisible"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D69F469-9BFC-4232-A2B0-B7BFA1DAD984"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38F8181A-0064-4CBE-B3F8-C16D907F7B1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/&#x7ed9; UIViewController &#x6dfb;&#x52a0; RxSwift &#x6269;&#x5c55;/UIViewControllerRxExtendViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "625A24D3-EF3B-48F2-8E98-7BB47934A96D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/&#x7ed9; UIViewController &#x6dfb;&#x52a0; RxSwift &#x6269;&#x5c55;/UIViewController+RxSwift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "isDismissing"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "625A24D3-EF3B-48F2-8E98-7BB47934A96D - bfb8d6fa43c124a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in rxswift_learning):RxSwift.Reactive&lt;A where A: __C.UIViewController&gt;.isDismissing.getter : RxCocoa.ControlEvent&lt;Swift.Bool&gt;"
+                  moduleName = "rxswift-learning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yf/Desktop/Rxswift%E5%AD%A6%E4%B9%A0/rxswift-learning/testSwfit/%E7%BB%99%20UIViewController%20%E6%B7%BB%E5%8A%A0%20RxSwift%20%E6%89%A9%E5%B1%95/UIViewController+RxSwift.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  uuid = "625A24D3-EF3B-48F2-8E98-7BB47934A96D - d1b522eed86ea942"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; Swift.Bool in (extension in rxswift_learning):RxSwift.Reactive&lt;A where A: __C.UIViewController&gt;.isDismissing.getter : RxCocoa.ControlEvent&lt;Swift.Bool&gt;"
+                  moduleName = "rxswift-learning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yf/Desktop/Rxswift%E5%AD%A6%E4%B9%A0/rxswift-learning/testSwfit/%E7%BB%99%20UIViewController%20%E6%B7%BB%E5%8A%A0%20RxSwift%20%E6%89%A9%E5%B1%95/UIViewController+RxSwift.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A121F10D-B5DC-4E1F-9506-3D1DD810296E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/&#x7ed9; UIViewController &#x6dfb;&#x52a0; RxSwift &#x6269;&#x5c55;/UIViewController+RxSwift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "isDismissing"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
