@@ -33,6 +33,16 @@
 		B86C957D23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957C23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift */; };
 		B86C958023795B81001AE7D5 /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C957F23795B81001AE7D5 /* UILabelViewController.swift */; };
 		B86C958323796571001AE7D5 /* UITextFieldUITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C958223796571001AE7D5 /* UITextFieldUITextViewViewController.swift */; };
+		B86C9586237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C9585237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift */; };
+		B86C9589237A55EC001AE7D5 /* UISwitchUISegmentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C9588237A55EC001AE7D5 /* UISwitchUISegmentControlViewController.swift */; };
+		B86C958C237A5A78001AE7D5 /* UISliderUIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C958B237A5A78001AE7D5 /* UISliderUIStepperViewController.swift */; };
+		B86C958F237A5BD9001AE7D5 /* BindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C958E237A5BD9001AE7D5 /* BindViewController.swift */; };
+		B86C9592237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C9591237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift */; };
+		B86C9595237A62A0001AE7D5 /* UITableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C9594237A62A0001AE7D5 /* UITableViewViewController.swift */; };
+		B86C9598237A96C8001AE7D5 /* RxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C9597237A96C8001AE7D5 /* RxDataSourcesViewController.swift */; };
+		B86C959B237AA23E001AE7D5 /* RefreshTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C959A237AA23E001AE7D5 /* RefreshTableViewViewController.swift */; };
+		B86C959E237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C959D237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift */; };
+		B86C95A1237AAF73001AE7D5 /* EditableTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95A0237AAF73001AE7D5 /* EditableTableViewViewController.swift */; };
 		B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */; };
 		B86E049023726AE700832DAF /* UITableViewCellButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */; };
 		B86E049323726D7000832DAF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E049223726D7000832DAF /* MyTableViewCell.swift */; };
@@ -102,6 +112,16 @@
 		B86C957C23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOnObserveOnViewController.swift; sourceTree = "<group>"; };
 		B86C957F23795B81001AE7D5 /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		B86C958223796571001AE7D5 /* UITextFieldUITextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldUITextViewViewController.swift; sourceTree = "<group>"; };
+		B86C9585237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonUIBarButtonItemViewController.swift; sourceTree = "<group>"; };
+		B86C9588237A55EC001AE7D5 /* UISwitchUISegmentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchUISegmentControlViewController.swift; sourceTree = "<group>"; };
+		B86C958B237A5A78001AE7D5 /* UISliderUIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderUIStepperViewController.swift; sourceTree = "<group>"; };
+		B86C958E237A5BD9001AE7D5 /* BindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindViewController.swift; sourceTree = "<group>"; };
+		B86C9591237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecgnizerViewController.swift; sourceTree = "<group>"; };
+		B86C9594237A62A0001AE7D5 /* UITableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewViewController.swift; sourceTree = "<group>"; };
+		B86C9597237A96C8001AE7D5 /* RxDataSourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		B86C959A237AA23E001AE7D5 /* RefreshTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTableViewViewController.swift; sourceTree = "<group>"; };
+		B86C959D237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSearchFilterViewController.swift; sourceTree = "<group>"; };
+		B86C95A0237AAF73001AE7D5 /* EditableTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTableViewViewController.swift; sourceTree = "<group>"; };
 		B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellButtonViewController.swift; sourceTree = "<group>"; };
 		B86E049223726D7000832DAF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
@@ -179,6 +199,16 @@
 		4C50369B23208BDB008D23A9 /* testSwfit */ = {
 			isa = PBXGroup;
 			children = (
+				B86C959F237AAF4D001AE7D5 /* UITableView的使用5：可编辑表格 */,
+				B86C959C237AAAEB001AE7D5 /* UITableView的使用4：表格数据的搜索过滤 */,
+				B86C9599237AA0F4001AE7D5 /* UITableView的使用3：刷新表格数据 */,
+				B86C9596237A967F001AE7D5 /* UITableView的使用2：RxDataSources */,
+				B86C9593237A60F0001AE7D5 /* UITableView的使用1：基本用法 */,
+				B86C9590237A5F7B001AE7D5 /* UI控件扩展7：UIGestureRecognizer */,
+				B86C958D237A5BCB001AE7D5 /* 双向绑定：<-> */,
+				B86C958A237A5A4C001AE7D5 /* UI控件扩展6：UISlider、UIStepper */,
+				B86C9587237A517D001AE7D5 /* UI控件扩展4：UISwitch、UISegmentedControl */,
+				B86C9584237A425B001AE7D5 /* UI控件扩展3：UIButton、UIBarButtonItem */,
 				B86C958123796550001AE7D5 /* UI控件扩展2：UITextField、UITextView */,
 				B86C957E23795B64001AE7D5 /* UI控件扩展1：UILabel */,
 				B86C957B23795AAB001AE7D5 /* 调度器、subscribeOn、observeOn */,
@@ -375,6 +405,86 @@
 			path = "UI控件扩展2：UITextField、UITextView";
 			sourceTree = "<group>";
 		};
+		B86C9584237A425B001AE7D5 /* UI控件扩展3：UIButton、UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9585237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift */,
+			);
+			path = "UI控件扩展3：UIButton、UIBarButtonItem";
+			sourceTree = "<group>";
+		};
+		B86C9587237A517D001AE7D5 /* UI控件扩展4：UISwitch、UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9588237A55EC001AE7D5 /* UISwitchUISegmentControlViewController.swift */,
+			);
+			path = "UI控件扩展4：UISwitch、UISegmentedControl";
+			sourceTree = "<group>";
+		};
+		B86C958A237A5A4C001AE7D5 /* UI控件扩展6：UISlider、UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				B86C958B237A5A78001AE7D5 /* UISliderUIStepperViewController.swift */,
+			);
+			path = "UI控件扩展6：UISlider、UIStepper";
+			sourceTree = "<group>";
+		};
+		B86C958D237A5BCB001AE7D5 /* 双向绑定：<-> */ = {
+			isa = PBXGroup;
+			children = (
+				B86C958E237A5BD9001AE7D5 /* BindViewController.swift */,
+			);
+			path = "双向绑定：<->";
+			sourceTree = "<group>";
+		};
+		B86C9590237A5F7B001AE7D5 /* UI控件扩展7：UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9591237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift */,
+			);
+			path = "UI控件扩展7：UIGestureRecognizer";
+			sourceTree = "<group>";
+		};
+		B86C9593237A60F0001AE7D5 /* UITableView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9594237A62A0001AE7D5 /* UITableViewViewController.swift */,
+			);
+			path = "UITableView的使用1：基本用法";
+			sourceTree = "<group>";
+		};
+		B86C9596237A967F001AE7D5 /* UITableView的使用2：RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				B86C9597237A96C8001AE7D5 /* RxDataSourcesViewController.swift */,
+			);
+			path = "UITableView的使用2：RxDataSources";
+			sourceTree = "<group>";
+		};
+		B86C9599237AA0F4001AE7D5 /* UITableView的使用3：刷新表格数据 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C959A237AA23E001AE7D5 /* RefreshTableViewViewController.swift */,
+			);
+			path = "UITableView的使用3：刷新表格数据";
+			sourceTree = "<group>";
+		};
+		B86C959C237AAAEB001AE7D5 /* UITableView的使用4：表格数据的搜索过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C959D237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift */,
+			);
+			path = "UITableView的使用4：表格数据的搜索过滤";
+			sourceTree = "<group>";
+		};
+		B86C959F237AAF4D001AE7D5 /* UITableView的使用5：可编辑表格 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95A0237AAF73001AE7D5 /* EditableTableViewViewController.swift */,
+			);
+			path = "UITableView的使用5：可编辑表格";
+			sourceTree = "<group>";
+		};
 		B86E048C2372658300832DAF /* NotificationCenter的使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,8 +595,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-rxswift-learning/Pods-rxswift-learning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -495,8 +607,10 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -536,11 +650,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86E049023726AE700832DAF /* UITableViewCellButtonViewController.swift in Sources */,
+				B86C9595237A62A0001AE7D5 /* UITableViewViewController.swift in Sources */,
 				B8F4A18A237271630002FA33 /* MJRefreshHeaderAndFooterViewController.swift in Sources */,
+				B86C9589237A55EC001AE7D5 /* UISwitchUISegmentControlViewController.swift in Sources */,
 				B86C955D2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				B86C95502373B827001AE7D5 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
 				B86C956F2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift in Sources */,
 				B86C957523793047001AE7D5 /* ControlPropetyControlEventViewController.swift in Sources */,
+				B86C959B237AA23E001AE7D5 /* RefreshTableViewViewController.swift in Sources */,
 				B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */,
 				B86C95722379100C001AE7D5 /* DriverViewController.swift in Sources */,
 				B86C956323751DC2001AE7D5 /* AmbTakeWhileSkipWhileViewController.swift in Sources */,
@@ -549,10 +666,14 @@
 				B8F4A18E237277430002FA33 /* MJRefreshHeaderAndFooterNetworkService.swift in Sources */,
 				B86C956C23755ED5001AE7D5 /* ConnectPublishReplayMulticastViewController.swift in Sources */,
 				B86C95562373E493001AE7D5 /* CustomBindablePropertyViewController.swift in Sources */,
+				B86C95A1237AAF73001AE7D5 /* EditableTableViewViewController.swift in Sources */,
 				B8A9DA102372AC90001B923B /* MJRefresh+Rx.swift in Sources */,
+				B86C959E237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift in Sources */,
 				B86C958323796571001AE7D5 /* UITextFieldUITextViewViewController.swift in Sources */,
 				B86C95532373C317001AE7D5 /* AnyObserverBinderViewController.swift in Sources */,
+				B86C958F237A5BD9001AE7D5 /* BindViewController.swift in Sources */,
 				4C50369F23208BDC008D23A9 /* ViewController.swift in Sources */,
+				B86C958C237A5A78001AE7D5 /* UISliderUIStepperViewController.swift in Sources */,
 				B86C95592373F028001AE7D5 /* SubjectsVariablesViewController.swift in Sources */,
 				B8F4A18C237272980002FA33 /* MJRefreshHeaderAndFooterViewModel.swift in Sources */,
 				B8A9DA122372B19A001B923B /* MJRefreshNetworkService.swift in Sources */,
@@ -562,9 +683,12 @@
 				B86C958023795B81001AE7D5 /* UILabelViewController.swift in Sources */,
 				B86C957D23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift in Sources */,
 				B86C9569237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift in Sources */,
+				B86C9598237A96C8001AE7D5 /* RxDataSourcesViewController.swift in Sources */,
 				B86C954D2373A220001AE7D5 /* ObservableIntroduceCreateViewController.swift in Sources */,
 				4C50369D23208BDC008D23A9 /* AppDelegate.swift in Sources */,
+				B86C9586237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift in Sources */,
 				B86C956023751437001AE7D5 /* FilterTakeSkipViewController.swift in Sources */,
+				B86C9592237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift in Sources */,
 				B8A9DA142372BBAC001B923B /* MJRefreshViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

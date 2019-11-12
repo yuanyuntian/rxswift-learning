@@ -12,4 +12,5 @@ target 'rxswift-learning' do
   pod 'RxSwift', '~> 5.0.0'
   pod 'RxCocoa'
   pod 'MJRefresh'
+  pod 'RxDataSources', '~> 4.0.1'
 end

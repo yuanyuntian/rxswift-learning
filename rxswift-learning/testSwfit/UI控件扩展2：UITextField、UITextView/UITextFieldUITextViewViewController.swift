@@ -66,10 +66,64 @@ class UITextFieldUITextViewViewController: UIViewController {
             return "当前字数：\(string)"
         }.drive(label.rx.text).disposed(by: disposeBag)
         
-        input.map { (str) -> Bool in
-            return str.count > 5
-        }.drive(button.rx.isEnabled).disposed(by: disposeBag)
+        //根据内容字数决定按钮背景颜色
+        input.map { (str) -> UIColor in
+            return str.count > 5 ? .red:.gray
+        }.drive(button.rx.backgroundColor).disposed(by: disposeBag)
         
+        //同时监听多个textfield的变化
+        
+        let textField_1 = UITextField(frame: CGRect(x:10, y:320, width:200, height:30))
+        textField_1.borderStyle = UITextField.BorderStyle.roundedRect
+        self.view.addSubview(textField_1)
+
+        let textField_2 = UITextField(frame: CGRect(x:10, y:360, width:200, height:30))
+        textField_2.borderStyle = UITextField.BorderStyle.roundedRect
+        self.view.addSubview(textField_2)
+        
+        let label_1 = UILabel(frame:CGRect(x:20, y:400, width:220, height:30))
+        self.view.addSubview(label_1)
+        
+        Observable.combineLatest(textField_1.rx.text.orEmpty, textField_2.rx.text.orEmpty){
+            textValue1, textValue2 -> String in
+            return "输入的号码是：\(textValue1)-\(textValue2)"
+            }.bind(to: label_1.rx.text).disposed(by: disposeBag)
+        
+        
+        //事件监听
+        //通过rx.ControlEvent可以监听输入框的各种事件，且多个事件状态可以自由组合。除了UI控件都有的touch事件外，还有如下几个事件：
+                /*
+         
+         editingDidBegin：开始编辑（开始输入内容）
+         editingChanged：输入内容发生改变
+         editingDidEnd：结束编辑
+         editingDidEndOnExit：按下 return 键结束编辑
+         allEditingEvents：包含前面的所有编辑相关事件
+         
+         **/
+        
+        
+        textField.rx.controlEvent(UIControl.Event.editingDidBegin).asObservable().subscribe(onNext: {
+            print("开始编辑")
+            }).disposed(by: disposeBag)
+        
+        //下面代码我们在界面上添加两个输入框分别用于输入用户名和密码：如果当前焦点在用户名输入框时，按下 return 键时焦点自动转移到密码输入框上。如果当前焦点在密码输入框时，按下 return 键时自动移除焦点。
+        
+        let nameTF = UITextField(frame: CGRect(x:10, y:320, width:200, height:30))
+        nameTF.borderStyle = UITextField.BorderStyle.roundedRect
+           self.view.addSubview(nameTF)
+           
+        let passTF = UITextField(frame: CGRect(x:10, y:360, width:200, height:30))
+        passTF.borderStyle = UITextField.BorderStyle.roundedRect
+        
+        
+        nameTF.rx.controlEvent([.editingDidEndOnExit]).subscribe(onNext:{
+            passTF.becomeFirstResponder()
+            }).disposed(by: disposeBag)
+        
+        passTF.rx.controlEvent([.editingDidEndOnExit]).subscribe(onNext:{
+            nameTF.becomeFirstResponder()
+            }).disposed(by: disposeBag)
     }
     
 

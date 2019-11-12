@@ -39,7 +39,17 @@ class ViewController: UIViewController{
         "给 UIViewController 添加 RxSwift 扩展",
         "调度器、subscribeOn、observeOn",
         "UI控件扩展1：UILabel",
-        "UI控件扩展2：UITextField、UITextView"
+        "UI控件扩展2：UITextField、UITextView",
+        "UI控件扩展3：UIButton、UIBarButtonItem",
+        "UI控件扩展4：UISwitch、UISegmentedControl",
+        "UI控件扩展6：UISlider、UIStepper",
+        "双向绑定：<->",
+        "UI控件扩展7：UIGestureRecognizer",
+        "UITableView的使用1：基本用法",
+        "UITableView的使用2：RxDataSources",
+        "UITableView的使用3：刷新表格数据",
+        "UITableView的使用4：表格数据的搜索过滤",
+        "UITableView的使用5：可编辑表格"
     ])
     
     let chocolates: BehaviorRelay<[String]> = BehaviorRelay(value: [])
@@ -124,6 +134,36 @@ extension ViewController:UITableViewDelegate{
             self.navigationController?.pushViewController(vc, animated: true)
         }else if indexPath.row == 20 {
             let vc = UITextFieldUITextViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 21 {
+            let vc = UIButtonUIBarButtonItemViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 22 {
+            let vc = UISwitchUISegmentControlViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 23 {
+            let vc = UISliderUIStepperViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 24 {
+            let vc = BindViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 25 {
+            let vc = UIGestureRecgnizerViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 26 {
+            let vc = UITableViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 27 {
+            let vc = RxDataSourcesViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 28 {
+            let vc = RefreshTableViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 29 {
+            let vc = TableViewSearchFilterViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 30 {
+            let vc = TableViewSearchFilterViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

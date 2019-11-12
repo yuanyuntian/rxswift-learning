@@ -1,9 +1,14 @@
 PODS:
+  - Differentiator (4.0.1)
   - MJRefresh (3.2.0)
   - Money-FlightSchool (1.1.1)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
@@ -14,29 +19,34 @@ DEPENDENCIES:
   - MJRefresh
   - Money-FlightSchool
   - RxCocoa
+  - RxDataSources (~> 4.0.1)
   - RxSwift (~> 5.0.0)
   - SnapKit (~> 4.0.0)
   - UMCSecurityPlugins
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Differentiator
     - MJRefresh
     - Money-FlightSchool
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - SnapKit
     - UMCSecurityPlugins
 
 SPEC CHECKSUMS:
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   Money-FlightSchool: 9b16e888f05ee439382897672e7ef2ece7ae80bc
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: c51a9378bff4875c9e25cab5fdb0bdbf6e474f29
+PODFILE CHECKSUM: a0a9c5be11c6f486dc294c8a4c216b60c7b39bb4
 
 COCOAPODS: 1.5.3
