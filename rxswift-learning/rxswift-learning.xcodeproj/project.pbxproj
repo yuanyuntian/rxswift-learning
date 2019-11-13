@@ -43,6 +43,17 @@
 		B86C959B237AA23E001AE7D5 /* RefreshTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C959A237AA23E001AE7D5 /* RefreshTableViewViewController.swift */; };
 		B86C959E237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C959D237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift */; };
 		B86C95A1237AAF73001AE7D5 /* EditableTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95A0237AAF73001AE7D5 /* EditableTableViewViewController.swift */; };
+		B86C95A4237BA279001AE7D5 /* DifferentKindCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95A3237BA279001AE7D5 /* DifferentKindCellViewController.swift */; };
+		B86C95A7237BAEA8001AE7D5 /* ChangeStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95A6237BAEA8001AE7D5 /* ChangeStyleViewController.swift */; };
+		B86C95AA237BD864001AE7D5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95A9237BD864001AE7D5 /* MyCollectionViewCell.swift */; };
+		B86C95AC237BD8B4001AE7D5 /* UICollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95AB237BD8B4001AE7D5 /* UICollectionViewViewController.swift */; };
+		B86C95AF237BF88D001AE7D5 /* UIPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95AE237BF88D001AE7D5 /* UIPickerViewViewController.swift */; };
+		B86C95B2237BFDAC001AE7D5 /* GitHubNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95B1237BFDAC001AE7D5 /* GitHubNetworkService.swift */; };
+		B86C95B4237BFE7D001AE7D5 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95B3237BFE7D001AE7D5 /* GitHubModel.swift */; };
+		B86C95B6237C0015001AE7D5 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95B5237C0015001AE7D5 /* GitHubAPI.swift */; };
+		B86C95B9237C060A001AE7D5 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95B8237C060A001AE7D5 /* BindingExtensions.swift */; };
+		B86C95BB237C0674001AE7D5 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95BA237C0674001AE7D5 /* ValidationResult.swift */; };
+		B86C95BD237C0B61001AE7D5 /* UserRegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95BC237C0B61001AE7D5 /* UserRegisterService.swift */; };
 		B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */; };
 		B86E049023726AE700832DAF /* UITableViewCellButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */; };
 		B86E049323726D7000832DAF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E049223726D7000832DAF /* MyTableViewCell.swift */; };
@@ -122,6 +133,17 @@
 		B86C959A237AA23E001AE7D5 /* RefreshTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTableViewViewController.swift; sourceTree = "<group>"; };
 		B86C959D237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSearchFilterViewController.swift; sourceTree = "<group>"; };
 		B86C95A0237AAF73001AE7D5 /* EditableTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTableViewViewController.swift; sourceTree = "<group>"; };
+		B86C95A3237BA279001AE7D5 /* DifferentKindCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentKindCellViewController.swift; sourceTree = "<group>"; };
+		B86C95A6237BAEA8001AE7D5 /* ChangeStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStyleViewController.swift; sourceTree = "<group>"; };
+		B86C95A9237BD864001AE7D5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B86C95AB237BD8B4001AE7D5 /* UICollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewViewController.swift; sourceTree = "<group>"; };
+		B86C95AE237BF88D001AE7D5 /* UIPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewViewController.swift; sourceTree = "<group>"; };
+		B86C95B1237BFDAC001AE7D5 /* GitHubNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubNetworkService.swift; sourceTree = "<group>"; };
+		B86C95B3237BFE7D001AE7D5 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		B86C95B5237C0015001AE7D5 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		B86C95B8237C060A001AE7D5 /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		B86C95BA237C0674001AE7D5 /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		B86C95BC237C0B61001AE7D5 /* UserRegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterService.swift; sourceTree = "<group>"; };
 		B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellButtonViewController.swift; sourceTree = "<group>"; };
 		B86E049223726D7000832DAF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
@@ -199,6 +221,12 @@
 		4C50369B23208BDB008D23A9 /* testSwfit */ = {
 			isa = PBXGroup;
 			children = (
+				B86C95B7237C05EC001AE7D5 /* 一个用户注册样例1：基本功能实现 */,
+				B86C95B0237BFD8F001AE7D5 /* MVVM架构演示2：使用Observable样例 */,
+				B86C95AD237BF87E001AE7D5 /* UIPickerView的使用 */,
+				B86C95A8237BD6F4001AE7D5 /* UICollectionView的使用1：基本用法 */,
+				B86C95A5237BAE8A001AE7D5 /* UITableView的使用7：样式修改 */,
+				B86C95A2237BA258001AE7D5 /* UITableView的使用6：不同类型的单元格混用 */,
 				B86C959F237AAF4D001AE7D5 /* UITableView的使用5：可编辑表格 */,
 				B86C959C237AAAEB001AE7D5 /* UITableView的使用4：表格数据的搜索过滤 */,
 				B86C9599237AA0F4001AE7D5 /* UITableView的使用3：刷新表格数据 */,
@@ -485,6 +513,59 @@
 			path = "UITableView的使用5：可编辑表格";
 			sourceTree = "<group>";
 		};
+		B86C95A2237BA258001AE7D5 /* UITableView的使用6：不同类型的单元格混用 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95A3237BA279001AE7D5 /* DifferentKindCellViewController.swift */,
+			);
+			path = "UITableView的使用6：不同类型的单元格混用";
+			sourceTree = "<group>";
+		};
+		B86C95A5237BAE8A001AE7D5 /* UITableView的使用7：样式修改 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95A6237BAEA8001AE7D5 /* ChangeStyleViewController.swift */,
+			);
+			path = "UITableView的使用7：样式修改";
+			sourceTree = "<group>";
+		};
+		B86C95A8237BD6F4001AE7D5 /* UICollectionView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95A9237BD864001AE7D5 /* MyCollectionViewCell.swift */,
+				B86C95AB237BD8B4001AE7D5 /* UICollectionViewViewController.swift */,
+			);
+			path = "UICollectionView的使用1：基本用法";
+			sourceTree = "<group>";
+		};
+		B86C95AD237BF87E001AE7D5 /* UIPickerView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95AE237BF88D001AE7D5 /* UIPickerViewViewController.swift */,
+			);
+			path = "UIPickerView的使用";
+			sourceTree = "<group>";
+		};
+		B86C95B0237BFD8F001AE7D5 /* MVVM架构演示2：使用Observable样例 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95B1237BFDAC001AE7D5 /* GitHubNetworkService.swift */,
+				B86C95B3237BFE7D001AE7D5 /* GitHubModel.swift */,
+				B86C95B5237C0015001AE7D5 /* GitHubAPI.swift */,
+			);
+			path = "MVVM架构演示2：使用Observable样例";
+			sourceTree = "<group>";
+		};
+		B86C95B7237C05EC001AE7D5 /* 一个用户注册样例1：基本功能实现 */ = {
+			isa = PBXGroup;
+			children = (
+				B86C95B8237C060A001AE7D5 /* BindingExtensions.swift */,
+				B86C95BA237C0674001AE7D5 /* ValidationResult.swift */,
+				B86C95BC237C0B61001AE7D5 /* UserRegisterService.swift */,
+			);
+			path = "一个用户注册样例1：基本功能实现";
+			sourceTree = "<group>";
+		};
 		B86E048C2372658300832DAF /* NotificationCenter的使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -595,8 +676,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-rxswift-learning/Pods-rxswift-learning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
@@ -607,8 +692,12 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
@@ -656,7 +745,9 @@
 				B86C955D2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift in Sources */,
 				B86C95502373B827001AE7D5 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
 				B86C956F2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift in Sources */,
+				B86C95AC237BD8B4001AE7D5 /* UICollectionViewViewController.swift in Sources */,
 				B86C957523793047001AE7D5 /* ControlPropetyControlEventViewController.swift in Sources */,
+				B86C95A7237BAEA8001AE7D5 /* ChangeStyleViewController.swift in Sources */,
 				B86C959B237AA23E001AE7D5 /* RefreshTableViewViewController.swift in Sources */,
 				B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */,
 				B86C95722379100C001AE7D5 /* DriverViewController.swift in Sources */,
@@ -670,17 +761,24 @@
 				B8A9DA102372AC90001B923B /* MJRefresh+Rx.swift in Sources */,
 				B86C959E237AAB11001AE7D5 /* TableViewSearchFilterViewController.swift in Sources */,
 				B86C958323796571001AE7D5 /* UITextFieldUITextViewViewController.swift in Sources */,
+				B86C95BB237C0674001AE7D5 /* ValidationResult.swift in Sources */,
+				B86C95AA237BD864001AE7D5 /* MyCollectionViewCell.swift in Sources */,
+				B86C95BD237C0B61001AE7D5 /* UserRegisterService.swift in Sources */,
 				B86C95532373C317001AE7D5 /* AnyObserverBinderViewController.swift in Sources */,
 				B86C958F237A5BD9001AE7D5 /* BindViewController.swift in Sources */,
+				B86C95AF237BF88D001AE7D5 /* UIPickerViewViewController.swift in Sources */,
 				4C50369F23208BDC008D23A9 /* ViewController.swift in Sources */,
 				B86C958C237A5A78001AE7D5 /* UISliderUIStepperViewController.swift in Sources */,
+				B86C95B9237C060A001AE7D5 /* BindingExtensions.swift in Sources */,
 				B86C95592373F028001AE7D5 /* SubjectsVariablesViewController.swift in Sources */,
 				B8F4A18C237272980002FA33 /* MJRefreshHeaderAndFooterViewModel.swift in Sources */,
 				B8A9DA122372B19A001B923B /* MJRefreshNetworkService.swift in Sources */,
+				B86C95B4237BFE7D001AE7D5 /* GitHubModel.swift in Sources */,
 				B86C957A23793C83001AE7D5 /* UIViewController+RxSwift.swift in Sources */,
 				B8A9DA162372BE14001B923B /* MJHeaderRefreshViewController.swift in Sources */,
 				B86E049323726D7000832DAF /* MyTableViewCell.swift in Sources */,
 				B86C958023795B81001AE7D5 /* UILabelViewController.swift in Sources */,
+				B86C95B2237BFDAC001AE7D5 /* GitHubNetworkService.swift in Sources */,
 				B86C957D23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift in Sources */,
 				B86C9569237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift in Sources */,
 				B86C9598237A96C8001AE7D5 /* RxDataSourcesViewController.swift in Sources */,
@@ -689,6 +787,8 @@
 				B86C9586237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift in Sources */,
 				B86C956023751437001AE7D5 /* FilterTakeSkipViewController.swift in Sources */,
 				B86C9592237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift in Sources */,
+				B86C95A4237BA279001AE7D5 /* DifferentKindCellViewController.swift in Sources */,
+				B86C95B6237C0015001AE7D5 /* GitHubAPI.swift in Sources */,
 				B8A9DA142372BBAC001B923B /* MJRefreshViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

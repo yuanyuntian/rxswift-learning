@@ -49,7 +49,10 @@ class ViewController: UIViewController{
         "UITableView的使用2：RxDataSources",
         "UITableView的使用3：刷新表格数据",
         "UITableView的使用4：表格数据的搜索过滤",
-        "UITableView的使用5：可编辑表格"
+        "UITableView的使用5：可编辑表格",
+        "UITableView的使用7：样式修改",
+        "UICollectionView的使用1：基本用法",
+        "MVVM架构演示2：使用Observable样例"
     ])
     
     let chocolates: BehaviorRelay<[String]> = BehaviorRelay(value: [])
@@ -163,7 +166,13 @@ extension ViewController:UITableViewDelegate{
             let vc = TableViewSearchFilterViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }else if indexPath.row == 30 {
-            let vc = TableViewSearchFilterViewController()
+            let vc = EditableTableViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 31 {
+            let vc = ChangeStyleViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 32 {
+            let vc = UICollectionViewViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

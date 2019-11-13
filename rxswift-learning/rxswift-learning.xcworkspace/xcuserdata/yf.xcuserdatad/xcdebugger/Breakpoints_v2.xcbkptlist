@@ -181,5 +181,85 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7243FA7-63ED-4CF0-86A5-3D061CE785B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/UITableView&#x7684;&#x4f7f;&#x7528;5&#xff1a;&#x53ef;&#x7f16;&#x8f91;&#x8868;&#x683c;/EditableTableViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7243FA7-63ED-4CF0-86A5-3D061CE785B5 - 9e19f6ce3bb65ce4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rxswift_learning.EditableTableViewViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "rxswift-learning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yf/Desktop/Rxswift%E5%AD%A6%E4%B9%A0/rxswift-learning/testSwfit/UITableView%E7%9A%84%E4%BD%BF%E7%94%A85%EF%BC%9A%E5%8F%AF%E7%BC%96%E8%BE%91%E8%A1%A8%E6%A0%BC/EditableTableViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "8062">
+               </Location>
+               <Location
+                  uuid = "C7243FA7-63ED-4CF0-86A5-3D061CE785B5 - b3cfd403e90a6af8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (rxswift_learning.TableViewModel) -&gt; Swift.Array&lt;Differentiator.AnimatableSectionModel&lt;Swift.String, Swift.String&gt;&gt; in rxswift_learning.EditableTableViewViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "rxswift-learning"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yf/Desktop/Rxswift%E5%AD%A6%E4%B9%A0/rxswift-learning/testSwfit/UITableView%E7%9A%84%E4%BD%BF%E7%94%A85%EF%BC%9A%E5%8F%AF%E7%BC%96%E8%BE%91%E8%A1%A8%E6%A0%BC/EditableTableViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A6D051F-C06C-47FC-B5F2-C3D42F3B543D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/UITableView&#x7684;&#x4f7f;&#x7528;5&#xff1a;&#x53ef;&#x7f16;&#x8f91;&#x8868;&#x683c;/EditableTableViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "dataSource()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE6F28F-0B21-43B3-AD0B-320EBED79254"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testSwfit/UICollectionView&#x7684;&#x4f7f;&#x7528;1&#xff1a;&#x57fa;&#x672c;&#x7528;&#x6cd5;/UICollectionViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

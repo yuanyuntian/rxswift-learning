@@ -1,7 +1,15 @@
 PODS:
+  - Alamofire (4.9.0)
   - Differentiator (4.0.1)
   - MJRefresh (3.2.0)
   - Money-FlightSchool (1.1.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ObjectMapper (3.5.1)
+  - Result (4.1.0)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -16,8 +24,12 @@ PODS:
   - UMCSecurityPlugins (1.0.6)
 
 DEPENDENCIES:
+  - Alamofire
   - MJRefresh
   - Money-FlightSchool
+  - Moya
+  - ObjectMapper (~> 3.5.1)
+  - Result
   - RxCocoa
   - RxDataSources (~> 4.0.1)
   - RxSwift (~> 5.0.0)
@@ -26,9 +38,13 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Differentiator
     - MJRefresh
     - Money-FlightSchool
+    - Moya
+    - ObjectMapper
+    - Result
     - RxCocoa
     - RxDataSources
     - RxRelay
@@ -37,9 +53,13 @@ SPEC REPOS:
     - UMCSecurityPlugins
 
 SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   Money-FlightSchool: 9b16e888f05ee439382897672e7ef2ece7ae80bc
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
@@ -47,6 +67,6 @@ SPEC CHECKSUMS:
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: a0a9c5be11c6f486dc294c8a4c216b60c7b39bb4
+PODFILE CHECKSUM: 160a2410e2267941da74de6d46de64f38a87f4cd
 
 COCOAPODS: 1.5.3

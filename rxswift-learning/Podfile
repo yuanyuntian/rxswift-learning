@@ -13,4 +13,8 @@ target 'rxswift-learning' do
   pod 'RxCocoa'
   pod 'MJRefresh'
   pod 'RxDataSources', '~> 4.0.1'
+  pod 'ObjectMapper', '~> 3.5.1'
+  pod 'Moya'
+  pod 'Result'
+  pod 'Alamofire'
 end
