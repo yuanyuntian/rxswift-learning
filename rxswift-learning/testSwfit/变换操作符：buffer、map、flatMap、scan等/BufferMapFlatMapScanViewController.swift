@@ -65,6 +65,7 @@ class BufferMapFlatMapScanViewController: UIViewController {
             print(item)
             }).disposed(by: disposeBag)
         
+ */
         //flatMap
           //map在做转换的时候容易出现“升维”的情况，就是从一个序列变成一个序列的序列，但是flatMap操作符会对源Observable的每一个元素应用一个转换方法，将他们变成Observables，然后将这些Observables的元素合并之后再发送出来。即又将其“拍扁”（降维）成一个Observable序列。
           //常用作：比如当Observable的元素本身就拥有其他的Observable时候，我们可以将所有子OBservables的元素发送出来。
@@ -74,25 +75,27 @@ class BufferMapFlatMapScanViewController: UIViewController {
         let variable = BehaviorRelay(value: subject3)
         variable.flatMap { (item) -> Observable<String> in
             return item
-            }.subscribe(onNext: { print($0)}).disposed(by: disposeBag)
+        }.subscribe(onNext: { print($0)}).disposed(by: disposeBag)
         subject3.onNext("B")
+        subject3.onNext("c")
+
         variable.accept(subject4)
         subject4.onNext("2")
         subject3.onNext("C")
+//
+//
+//        //flatMapLatest
+//          //flatMapLatest与flatMap唯一的区别就是：flatMapLatest只会接收最新的value事件。
+//          let subject5 = BehaviorSubject(value: "A")
+//          let subject6 = BehaviorSubject(value: "1")
+//        let variable1 = BehaviorRelay(value: subject5)
+//        variable1.flatMapLatest {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
+//        subject5.onNext("B")
+//        variable1.accept(subject6)
+//        subject6.onNext("2")
+//        subject5.onNext("C")
         
-        
-        //flatMapLatest
-          //flatMapLatest与flatMap唯一的区别就是：flatMapLatest只会接收最新的value事件。
-          let subject5 = BehaviorSubject(value: "A")
-          let subject6 = BehaviorSubject(value: "1")
-        let variable1 = BehaviorRelay(value: subject5)
-        variable1.flatMapLatest {$0}.subscribe(onNext: {print($0)}).disposed(by: disposeBag)
-        subject5.onNext("B")
-        variable1.accept(subject6)
-        subject6.onNext("2")
-          subject5.onNext("C")
-        
-        */
+ /*
         //concatMap
              //与flatMap唯一的区别就是：当前一个Observable元素发送完毕后，后一个Observable才可以开始发出元素，也就是等待前一个Observable产生完成事件，才对后一个Observable进行订阅。
         
@@ -124,6 +127,7 @@ class BufferMapFlatMapScanViewController: UIViewController {
                  print("key:\(group.key)  event:\(value)")
             }).disposed(by: self!.disposeBag)
             }).disposed(by: disposeBag)
+ */
     }
     
 

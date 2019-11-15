@@ -52,7 +52,8 @@ class ViewController: UIViewController{
         "UITableView的使用5：可编辑表格",
         "UITableView的使用7：样式修改",
         "UICollectionView的使用1：基本用法",
-        "MVVM架构演示2：使用Observable样例"
+        "一个用户注册样例1：基本功能实现",
+        "UIPickerViewExample"
     ])
     
     let chocolates: BehaviorRelay<[String]> = BehaviorRelay(value: [])
@@ -173,6 +174,12 @@ extension ViewController:UITableViewDelegate{
             self.navigationController?.pushViewController(vc, animated: true)
         }else if indexPath.row == 32 {
             let vc = UICollectionViewViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 33 {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MVVMDriverRegisterViewController") as! MVVMDriverRegisterViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 34 {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ImagePickerController") as! ImagePickerController
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

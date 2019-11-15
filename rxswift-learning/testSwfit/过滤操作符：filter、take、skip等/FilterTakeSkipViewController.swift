@@ -48,7 +48,7 @@ class FilterTakeSkipViewController: UIViewController {
         
         //take
            //实现仅发送Observable序列的前n个事件，在满足数量之后会自动.completed
-           Observable.of(1,2,3,4).take(2).subscribe(onNext: {print($0)}).disposed(by: disposeBag)
+           Observable.of(1).take(3).subscribe(onNext: {print($0)}).disposed(by: disposeBag)
            
            
            //takeLast

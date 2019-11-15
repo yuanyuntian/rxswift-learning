@@ -12,6 +12,11 @@
 		4C5036A223208BDC008D23A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5036A023208BDC008D23A9 /* Main.storyboard */; };
 		4C5036A423208BF1008D23A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5036A323208BF1008D23A9 /* Assets.xcassets */; };
 		4C5036A723208BF1008D23A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5036A523208BF1008D23A9 /* LaunchScreen.storyboard */; };
+		B8294332237E8109008144CD /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8294331237E8109008144CD /* ImagePickerController.swift */; };
+		B8294334237E932A008144CD /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8294333237E932A008144CD /* UIImagePickerController+Rx.swift */; };
+		B8294336237E9341008144CD /* UIImagePickerController+RxCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8294335237E9341008144CD /* UIImagePickerController+RxCreate.swift */; };
+		B8294338237E9B7C008144CD /* RxImagePickerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8294337237E9B7C008144CD /* RxImagePickerDelegateProxy.swift */; };
+		B8530A0E237E4C0B002923A2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8530A0D237E4C0B002923A2 /* BaseViewController.swift */; };
 		B86C95482373A184001AE7D5 /* Pods_rxswift_learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86C95472373A184001AE7D5 /* Pods_rxswift_learning.framework */; };
 		B86C95492373A184001AE7D5 /* Pods_rxswift_learning.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B86C95472373A184001AE7D5 /* Pods_rxswift_learning.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B86C954D2373A220001AE7D5 /* ObservableIntroduceCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C954C2373A220001AE7D5 /* ObservableIntroduceCreateViewController.swift */; };
@@ -54,6 +59,9 @@
 		B86C95B9237C060A001AE7D5 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95B8237C060A001AE7D5 /* BindingExtensions.swift */; };
 		B86C95BB237C0674001AE7D5 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95BA237C0674001AE7D5 /* ValidationResult.swift */; };
 		B86C95BD237C0B61001AE7D5 /* UserRegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95BC237C0B61001AE7D5 /* UserRegisterService.swift */; };
+		B86C95BF237CE2F1001AE7D5 /* UserRegisterNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95BE237CE2F1001AE7D5 /* UserRegisterNetworkService.swift */; };
+		B86C95C1237D02FB001AE7D5 /* UserRegitserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95C0237D02FB001AE7D5 /* UserRegitserViewModel.swift */; };
+		B86C95C3237D392D001AE7D5 /* MVVMDriverRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C95C2237D392D001AE7D5 /* MVVMDriverRegisterViewController.swift */; };
 		B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */; };
 		B86E049023726AE700832DAF /* UITableViewCellButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */; };
 		B86E049323726D7000832DAF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E049223726D7000832DAF /* MyTableViewCell.swift */; };
@@ -103,6 +111,11 @@
 		785E960DAC005790609ECEAA /* Pods_rxswift_learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxswift_learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8017CF8C482AC12AF9E2A444 /* Pods-rxswift-learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-rxswift-learning/Pods-rxswift-learning.release.xcconfig"; sourceTree = "<group>"; };
 		85D7833513CE92198E1AD2D2 /* Pods_testSwfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSwfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8294331237E8109008144CD /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		B8294333237E932A008144CD /* UIImagePickerController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+Rx.swift"; sourceTree = "<group>"; };
+		B8294335237E9341008144CD /* UIImagePickerController+RxCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreate.swift"; sourceTree = "<group>"; };
+		B8294337237E9B7C008144CD /* RxImagePickerDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxImagePickerDelegateProxy.swift; sourceTree = "<group>"; };
+		B8530A0D237E4C0B002923A2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B86C95472373A184001AE7D5 /* Pods_rxswift_learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_rxswift_learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86C954C2373A220001AE7D5 /* ObservableIntroduceCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableIntroduceCreateViewController.swift; sourceTree = "<group>"; };
 		B86C954F2373B827001AE7D5 /* ObservableSubscribeDoonDisposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSubscribeDoonDisposeViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +157,9 @@
 		B86C95B8237C060A001AE7D5 /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
 		B86C95BA237C0674001AE7D5 /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 		B86C95BC237C0B61001AE7D5 /* UserRegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterService.swift; sourceTree = "<group>"; };
+		B86C95BE237CE2F1001AE7D5 /* UserRegisterNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterNetworkService.swift; sourceTree = "<group>"; };
+		B86C95C0237D02FB001AE7D5 /* UserRegitserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegitserViewModel.swift; sourceTree = "<group>"; };
+		B86C95C2237D392D001AE7D5 /* MVVMDriverRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDriverRegisterViewController.swift; sourceTree = "<group>"; };
 		B86E048D237265AA00832DAF /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		B86E048F23726AE700832DAF /* UITableViewCellButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellButtonViewController.swift; sourceTree = "<group>"; };
 		B86E049223726D7000832DAF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
@@ -221,6 +237,7 @@
 		4C50369B23208BDB008D23A9 /* testSwfit */ = {
 			isa = PBXGroup;
 			children = (
+				B8530A0C237E45D8002923A2 /* ImagePicker */,
 				B86C95B7237C05EC001AE7D5 /* 一个用户注册样例1：基本功能实现 */,
 				B86C95B0237BFD8F001AE7D5 /* MVVM架构演示2：使用Observable样例 */,
 				B86C95AD237BF87E001AE7D5 /* UIPickerView的使用 */,
@@ -264,6 +281,7 @@
 				4C5036A323208BF1008D23A9 /* Assets.xcassets */,
 				4C5036A523208BF1008D23A9 /* LaunchScreen.storyboard */,
 				4C5036A823208BF1008D23A9 /* Info.plist */,
+				B8530A0D237E4C0B002923A2 /* BaseViewController.swift */,
 			);
 			path = testSwfit;
 			sourceTree = "<group>";
@@ -286,6 +304,17 @@
 				785E960DAC005790609ECEAA /* Pods_rxswift_learning.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8530A0C237E45D8002923A2 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B8294335237E9341008144CD /* UIImagePickerController+RxCreate.swift */,
+				B8294333237E932A008144CD /* UIImagePickerController+Rx.swift */,
+				B8294331237E8109008144CD /* ImagePickerController.swift */,
+				B8294337237E9B7C008144CD /* RxImagePickerDelegateProxy.swift */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 		B86C954B2373A213001AE7D5 /* ObservableIntroduceCreateViewController */ = {
@@ -562,6 +591,9 @@
 				B86C95B8237C060A001AE7D5 /* BindingExtensions.swift */,
 				B86C95BA237C0674001AE7D5 /* ValidationResult.swift */,
 				B86C95BC237C0B61001AE7D5 /* UserRegisterService.swift */,
+				B86C95BE237CE2F1001AE7D5 /* UserRegisterNetworkService.swift */,
+				B86C95C0237D02FB001AE7D5 /* UserRegitserViewModel.swift */,
+				B86C95C2237D392D001AE7D5 /* MVVMDriverRegisterViewController.swift */,
 			);
 			path = "一个用户注册样例1：基本功能实现";
 			sourceTree = "<group>";
@@ -743,11 +775,16 @@
 				B8F4A18A237271630002FA33 /* MJRefreshHeaderAndFooterViewController.swift in Sources */,
 				B86C9589237A55EC001AE7D5 /* UISwitchUISegmentControlViewController.swift in Sources */,
 				B86C955D2374F384001AE7D5 /* BufferMapFlatMapScanViewController.swift in Sources */,
+				B8530A0E237E4C0B002923A2 /* BaseViewController.swift in Sources */,
+				B8294338237E9B7C008144CD /* RxImagePickerDelegateProxy.swift in Sources */,
 				B86C95502373B827001AE7D5 /* ObservableSubscribeDoonDisposeViewController.swift in Sources */,
 				B86C956F2378F3BF001AE7D5 /* SingleCompletableMaybeViewController.swift in Sources */,
+				B86C95BF237CE2F1001AE7D5 /* UserRegisterNetworkService.swift in Sources */,
 				B86C95AC237BD8B4001AE7D5 /* UICollectionViewViewController.swift in Sources */,
 				B86C957523793047001AE7D5 /* ControlPropetyControlEventViewController.swift in Sources */,
+				B86C95C1237D02FB001AE7D5 /* UserRegitserViewModel.swift in Sources */,
 				B86C95A7237BAEA8001AE7D5 /* ChangeStyleViewController.swift in Sources */,
+				B86C95C3237D392D001AE7D5 /* MVVMDriverRegisterViewController.swift in Sources */,
 				B86C959B237AA23E001AE7D5 /* RefreshTableViewViewController.swift in Sources */,
 				B86E048E237265AA00832DAF /* NotificationCenterViewController.swift in Sources */,
 				B86C95722379100C001AE7D5 /* DriverViewController.swift in Sources */,
@@ -763,6 +800,7 @@
 				B86C958323796571001AE7D5 /* UITextFieldUITextViewViewController.swift in Sources */,
 				B86C95BB237C0674001AE7D5 /* ValidationResult.swift in Sources */,
 				B86C95AA237BD864001AE7D5 /* MyCollectionViewCell.swift in Sources */,
+				B8294332237E8109008144CD /* ImagePickerController.swift in Sources */,
 				B86C95BD237C0B61001AE7D5 /* UserRegisterService.swift in Sources */,
 				B86C95532373C317001AE7D5 /* AnyObserverBinderViewController.swift in Sources */,
 				B86C958F237A5BD9001AE7D5 /* BindViewController.swift in Sources */,
@@ -781,10 +819,12 @@
 				B86C95B2237BFDAC001AE7D5 /* GitHubNetworkService.swift in Sources */,
 				B86C957D23795AC7001AE7D5 /* SubscribeOnObserveOnViewController.swift in Sources */,
 				B86C9569237558BC001AE7D5 /* ToArrayReduceConcatViewController.swift in Sources */,
+				B8294336237E9341008144CD /* UIImagePickerController+RxCreate.swift in Sources */,
 				B86C9598237A96C8001AE7D5 /* RxDataSourcesViewController.swift in Sources */,
 				B86C954D2373A220001AE7D5 /* ObservableIntroduceCreateViewController.swift in Sources */,
 				4C50369D23208BDC008D23A9 /* AppDelegate.swift in Sources */,
 				B86C9586237A428C001AE7D5 /* UIButtonUIBarButtonItemViewController.swift in Sources */,
+				B8294334237E932A008144CD /* UIImagePickerController+Rx.swift in Sources */,
 				B86C956023751437001AE7D5 /* FilterTakeSkipViewController.swift in Sources */,
 				B86C9592237A5FA9001AE7D5 /* UIGestureRecgnizerViewController.swift in Sources */,
 				B86C95A4237BA279001AE7D5 /* DifferentKindCellViewController.swift in Sources */,
